@@ -78,8 +78,8 @@ Once logged in, **Server Manager** usually opens automatically. If not, open it 
 Once the installation finishes, a yellow exclamation mark notification will appear at the top of Server Manager.
 
 1. Click on the **flag notification** and then on the link: **"Promote this server to a domain controller"**.
-![Promote the Server to a DC](<images/Promote Server to Domain Controller.png>)
 
+![Promote the Server to a DC](<images/Promote Server to Domain Controller.png>)
 
 ## 10. Deploy a New Forest
 
@@ -106,9 +106,12 @@ Once the installation finishes, a yellow exclamation mark notification will appe
 ## 13. Additional Options & Paths
 
 1. NetBIOS name will auto-fill, but can be changed if required.  
+
 ![NetBios Name](images/NetBios.png)
+
 2. Set database, log, and SYSVOL folder locations (defaults are usually recommended).  
 3. Click **Next**.
+
 ![Additional Options](<images/Configure DNS Options.png>)
 
 
@@ -130,6 +133,7 @@ Once the server restarts:
 1. Log in using your **domain credentials**.  
 2. Open **Server Manager** and ensure the AD DS role is present and healthy.  
 3. The server now acts as a **domain controller** for your new domain.
+
 ![Ad Confirmation](<images/AD confination.png>)
 
 
