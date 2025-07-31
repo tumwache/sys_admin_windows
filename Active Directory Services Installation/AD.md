@@ -100,6 +100,7 @@ Once the installation finishes, a yellow exclamation mark notification will appe
 
 - If you selected to install DNS, accept defaults or provide settings as needed.  
 - Click **Next**.
+
 ![Configure DNS Options](images/DNS.png)
 
 
@@ -120,6 +121,7 @@ Once the installation finishes, a yellow exclamation mark notification will appe
 
 1. Review all configuration selections.  
 2. Click **Next**, then click **Install**.
+
 ![Review and Install](<images/Final  review.png>)
 
 
