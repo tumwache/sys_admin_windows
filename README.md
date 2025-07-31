@@ -1,8 +1,8 @@
 # 🖥️ sys_admin_windows
 
-![GitHub stars](https://img.shields.io/github/stars/Gaturu/sys_admin_windows?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Gaturu/sys_admin_windows?style=social)
-![GitHub license](https://img.shields.io/github/license/Gaturu/sys_admin_windows)
+![GitHub stars](https://img.shields.io/github/stars/tumwache/sys_admin_windows?style=social)
+![GitHub forks](https://img.shields.io/github/forks/tumwache/sys_admin_windows?style=social)
+![GitHub license](https://img.shields.io/github/license/tumwache/sys_admin_windows)
 
 Welcome to **sys_admin_windows** – your complete, step-by-step guide to mastering Windows system administration, from absolute beginner to seasoned professional. This repository is designed to help anyone, regardless of experience level, learn and practice all essential tasks for managing Windows servers and clients in an enterprise environment.
 
