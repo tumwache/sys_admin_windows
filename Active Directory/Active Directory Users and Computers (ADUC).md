@@ -9,9 +9,15 @@ This guide walks you through managing core Active Directory (AD) objects using *
 
 - **Users**: Security principals representing people or services that need access to resources. Users authenticate to the domain to gain access, and their attributes (such as group membership, profile path, and password policies) control their permissions.
 
+![ADUC Users](<images/ADUC USERS.png>)
+
 - **Computers**: AD objects representing domain-joined machines (servers, workstations). Each computer has its own account and can be targeted by policies, auditing, and access controls.
 
+![ADUC Computers](images/Computers.png)
+
 - **Domain Controllers (DCs)**: Servers that host the AD database (the directory) and provide authentication, replication, and directory services for the domain. They validate credentials, process logons, and replicate changes to other DCs.
+
+![ADUC DC](<images/ADUC DC.png>)
 
 - **Organizational Units (OUs)**: Containers used to organize and delegate administration of AD objects (users, computers, groups). OUs can host Group Policy links and support granular delegation without affecting the entire domain.
 
@@ -36,6 +42,8 @@ This guide walks you through managing core Active Directory (AD) objects using *
    - Alternatively, press `Win + R`, type `dsa.msc`, and press Enter.
 4. Expand your domain in the left pane to expose containers like **Users**, **Computers**, **Domain Controllers**, and any existing **OUs**.
 
+![ADUC](images/ADUC.png)
+
 ---
 
 ## 2. Managing Users
@@ -44,10 +52,14 @@ This guide walks you through managing core Active Directory (AD) objects using *
 
 1. In ADUC, expand your domain and click on the **Users** container (or a designated OU if following delegation/naming).
 2. Right-click > **New > User**.
+
+![Creating AD user](<images/Creating User.png>)
 3. Fill in:
    - **First name**, **Last name**
-   - **User logon name** (sAMAccountName / UPN)
+   - **User logon name** (testuser)
 4. Click **Next** and set the password.
+
+![Naming User](<images/Naming User.png>)
 5. Choose password options:
    - User must change password at next logon
    - Password never expires (use cautiously)
@@ -57,13 +69,19 @@ This guide walks you through managing core Active Directory (AD) objects using *
 ### Manage User Properties
 
 1. Right-click the created user > **Properties**.
+
+![alt text](<images/User Properties.png>)
 2. Explore tabs (General, Account, Profile, Member Of, etc.)
    - Add the user to security or distribution groups under **Member Of**.
    - Set login hours, account expiration, or configure profile paths.
 
+   ![user properties tabs](<images/User Properties2.png>)
+
 ### Resetting a User Password
 
 1. Right-click the user > **Reset Password**.
+
+![Password reset](<images/[assword reset.png>)
 2. Provide a new password and configure the checkboxes (e.g., require change at next logon).
 3. Click **OK**.
 
