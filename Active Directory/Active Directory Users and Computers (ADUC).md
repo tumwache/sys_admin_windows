@@ -147,8 +147,16 @@ This guide walks you through managing core Active Directory (AD) objects using *
 ### Create an OU
 
 1. Right-click the domain (or parent OU) > **New > Organizational Unit**.
+
+![Organization Unit](images/OU.png)
+
 2. Provide a name (e.g., `HR`, `IT-Workstations`, `Servers`).
+
+![OU naming](<images/OU naming.png>)
+
 3. Optionally check **Protect container from accidental deletion** (recommended).
+
+![OU Listing](<images/OU listing.png>)
 
 ### Delegating Control
 
