@@ -88,9 +88,9 @@ sys_admin_windows/
 ├── installation_guides/
 ├── active_directory/
 ├── organizational_units/
-├── group_policy/
-├── users_and_groups/
 ├── windows_clients/
+├── users_and_groups/
+├── group_policy/
 ├── file_shares/
 ├── permissions_access_control/
 ├── scripts/
